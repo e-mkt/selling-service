@@ -1,0 +1,9 @@
+POST http://localhost:8080/sales/confirm
+content-type: application/json
+
+{
+    "ids": [
+        "3abee509-04bb-48c3-a1dc-f4f05e95aff1",
+        "9aa5ea9f-c6e1-4265-b7b2-d1bdfb733855"
+    ]
+}
